@@ -2,23 +2,18 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>concurrency_problems</artifactId>
+        <groupId>com.dhruv.www</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.dhruv.www</groupId>
-    <artifactId>CoreJava</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
+    <artifactId>philosopher_dining</artifactId>
 
     <properties>
         <maven.compiler.source>15</maven.compiler.source>
         <maven.compiler.target>15</maven.compiler.target>
     </properties>
 
-    <modules>
-        <module>DataHidingAbstractionEncapsulation</module>
-        <module>IS_A_RELATIONSHIP</module>
-        <module>HAS_A_RELATIONSHIP</module>
-        <module>concurrency_problems</module>
-    </modules>
-    
 </project>
